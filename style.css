@@ -1,2 +1,4 @@
-a{text-decoration:none;color:grey}
+/*!
+Theme_name: CodinShop
+*/#HeaderNav{display:flex;justify-content:space-around}#HeaderNav ul{display:flex;flex-direction:row;justify-content:space-around;list-style-type:none}#HeaderNav ul li{margin-left:1rem}h1{color:black}
 /*# sourceMappingURL=style.css.map */

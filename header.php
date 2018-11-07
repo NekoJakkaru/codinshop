@@ -6,17 +6,14 @@
         <?php wp_head(); ?>
     </head>
     <body>
-        <?php wp_nav_menu() ; ?>
-        <!-- <nav>
-            <ul>
-                <li><h1>CODINSHOP</h1></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a>User_icon</a></li>
-                <li><a>Shop_icon</a></li>
-                <li><a>Search_icon</a></li>
-            </ul>
-        </nav> -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="HeaderNav">
+                <h1><a href="/">CODISHOP</a></h1>
+                <?php wp_nav_menu(); ?>
+                <section class="emo">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                    <a href="#"><i class="fas fa-search-minus"></i></a>
+                </section>
+            </nav>
+        </header>
