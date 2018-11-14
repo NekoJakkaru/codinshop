@@ -39,3 +39,17 @@
                endif;
                ?>
            </div>
+           <div class="row">
+               <div class="col-8">
+                   <?php
+                   wp_nav_menu(array("menu" => "Category"));
+              //      $categories = get_categories('taxonomy=product_cat&&exclude=27&&exclude=15');
+              // foreach($categories as $category){
+              //     echo $category->name;
+              // } ;
+              ?>
+               </div>
+               <div class="col-4">
+
+               </div>
+           </div>
