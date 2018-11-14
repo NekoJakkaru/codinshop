@@ -8,8 +8,8 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id="HeaderNav">
-                <h1><a href="/">CODISHOP</a></h1>
-                <?php wp_nav_menu(); ?>
+                <h1><a href="/"><?php bloginfo('name');?></a></h1>
+                <?php wp_nav_menu(array("menu" => "Menu_Header")); ?>
                 <section class="emo">
                     <a href="#"><i class="fas fa-user"></i></a>
                     <a href="#"><i class="fas fa-shopping-bag"></i></a>
@@ -43,7 +43,7 @@
                <div class="col-12">
                    <?php
                    wp_nav_menu(array("menu" => "Category"));
-              
+
               ?>
                </div>
            </div>
